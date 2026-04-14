@@ -6,7 +6,7 @@ Reference values for the code-complexity-analyzer skill. These are guidelines, n
 
 | Metric | Good | Acceptable | Needs Attention | Action |
 |---|---|---|---|---|
-| Cyclomatic Complexity | 1-5 | 6-10 | 11-15 | Split method |
+| Cyclomatic Complexity | 1-5 | 6-14 | 15+ | Split method |
 | Method Length (lines) | 1-15 | 16-30 | 31+ | Extract submethods |
 | Parameter Count | 0-3 | 4-5 | 6+ | Introduce parameter object |
 | Nesting Depth | 0-2 | 3 | 4+ | Early return / extract |
@@ -17,15 +17,15 @@ Reference values for the code-complexity-analyzer skill. These are guidelines, n
 | Metric | Good | Acceptable | Needs Attention | Action |
 |---|---|---|---|---|
 | Methods per Class | 1-7 | 8-15 | 16+ | Split responsibilities |
-| Lines per Class | 1-100 | 101-300 | 301+ | Extract collaborators |
-| Dependencies (constructor params) | 0-3 | 4-5 | 6+ | Facade or mediator |
+| Lines per Class | 1-300 | 301-750 | 751+ | Extract collaborators |
+| Dependencies (constructor params) | 0-3 | 4-5 | 6+ | Facade |
 | Abstraction Depth (inheritance) | 0-1 | 2 | 3+ | Prefer composition |
 
 ## Actor-Specific Metrics
 
 | Metric | Good | Acceptable | Needs Attention | Action |
 |---|---|---|---|---|
-| Direct Actor References | 0-3 | 4-5 | 6+ | Introduce router/mediator |
+| Direct Actor References | 0-3 | 4-5 | 6+ | Introduce router |
 | States (Become transitions) | 1-3 | 4-5 | 6+ | State machine extraction |
 | Message Types Handled | 1-7 | 8-12 | 13+ | Split into child actors |
 | Child Actors Created | 0-3 | 4-5 | 6+ | Consider hierarchy refactor |

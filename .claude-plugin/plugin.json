@@ -1,6 +1,6 @@
 {
   "name": "sepp",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Production-proven patterns for .NET and Akka.NET development. Each skill is standalone and focuses on one concern.",
   "skills": [
     "./skills/actor-pattern-library",

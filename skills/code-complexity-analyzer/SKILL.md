@@ -54,9 +54,8 @@ public bool ValidateOrder(Order order)
 | CC | Assessment | Action |
 |---|---|---|
 | 1-5 | Simple, easy to test | None |
-| 6-10 | Moderate, manageable | Monitor |
-| 11-15 | Complex, hard to test | Split method |
-| 16+ | Very complex, error-prone | Must refactor |
+| 6-14 | Moderate, manageable | Monitor |
+| 15+ | Complex, hard to test | must refactor |
 
 #### Method Length
 
