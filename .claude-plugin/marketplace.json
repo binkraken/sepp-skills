@@ -1,0 +1,17 @@
+{
+  "name": "sepp",
+  "description": "",
+  "owner": {
+    "name": "binKraken",
+    "url": "https://github.com/binKraken"
+  },
+  "repository": "https://github.com/binKraken/sepp-skills",
+  "plugins": [
+    {
+      "name": "sepp",
+      "source": "./",
+      "version": "0.0.1",
+      "description": "Sepp skills"
+    }
+  ]
+}
