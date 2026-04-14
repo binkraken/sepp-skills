@@ -1,6 +1,7 @@
 ---
 name: code-complexity-analyzer
 description: Analyze code complexity metrics and provide concrete recommendations. Cyclomatic Complexity, CRAP Score, coupling, abstraction depth, method length.
+invocable: true
 ---
 
 # Code Complexity Analyzer

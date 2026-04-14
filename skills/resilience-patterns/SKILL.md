@@ -1,6 +1,7 @@
 ---
 name: resilience-patterns
 description: Implement fault tolerance patterns for Akka.NET and .NET services. Supervision, Mitigation/Fallback, Stashing, Circuit Breaker.
+invocable: true
 ---
 
 # Resilience Patterns

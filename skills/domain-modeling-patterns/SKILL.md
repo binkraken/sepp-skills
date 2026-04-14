@@ -1,6 +1,7 @@
 ---
 name: domain-modeling-patterns
 description: Design domain models with value objects, record hierarchies, complex type parsers, and attribute-driven discovery. Make illegal states unrepresentable.
+invocable: true
 ---
 
 # Domain Modeling Patterns

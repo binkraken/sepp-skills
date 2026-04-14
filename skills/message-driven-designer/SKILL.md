@@ -1,6 +1,7 @@
 ---
 name: message-driven-designer
 description: Design messages, events, and commands for actor systems and distributed architectures. Command/Event/Query separation, Envelope pattern, immutability, pub/sub, versioning.
+invocable: true
 ---
 
 # Message-Driven Designer

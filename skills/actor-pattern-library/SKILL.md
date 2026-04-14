@@ -1,6 +1,7 @@
 ---
 name: actor-pattern-library
 description: Generate Akka.NET actor implementations following production-proven patterns. Persistent Actor, Cluster Singleton, Sharded Entity, Stashing Actor, Gateway/Proxy.
+invocable: true
 ---
 
 # Actor Pattern Library

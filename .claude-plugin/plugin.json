@@ -1,57 +1,17 @@
 {
-  "name": "Sepp",
+  "name": "sepp",
   "version": "0.0.1",
   "description": "Production-proven patterns for .NET and Akka.NET development. Each skill is standalone and focuses on one concern.",
   "skills": [
-    {
-      "name": "complexity-guardian",
-      "description": "Review code for over-engineering and under-engineering. Detect unnecessary abstractions, god classes, missing error handling, and premature patterns. Use during code review, after changes, or when asking 'is this too complex?'. TRIGGER when: user asks about complexity, requests code review, says 'simplify', 'too complex', 'refactor', or 'clean up'.",
-      "path": "skills/complexity-guardian/complexity-guardian.md"
-    },
-    {
-      "name": "actor-pattern-library",
-      "description": "Generate Akka.NET actor implementations following production-proven patterns: Persistent Actor, Cluster Singleton, Sharded Entity, Stashing Actor, Gateway/Proxy, Request-Response with Timeout, Leader-Only Router. Includes anti-patterns to avoid. TRIGGER when: creating or refactoring Akka.NET actors, asking about actor patterns, or implementing stateful concurrent entities.",
-      "path": "skills/actor-pattern-library/actor-pattern-library.md"
-    },
-    {
-      "name": "message-driven-designer",
-      "description": "Design messages, events, and commands for actor systems and distributed architectures. Covers Command/Event/Query separation, Envelope pattern, immutability, pub/sub vs direct messaging, EventHub with type hierarchy, versioning, and correlation. TRIGGER when: designing messages, events, commands, or communication patterns between actors or services.",
-      "path": "skills/message-driven-designer/message-driven-designer.md"
-    },
-    {
-      "name": "state-machine-designer",
-      "description": "Design explicit state machines with event-sourced state, transition guards, and side-effect isolation. Covers state modeling, transitions, recovery, Akka.NET Become() integration, and visualization in Mermaid/DOT. TRIGGER when: dealing with lifecycle management, complex state transitions, workflow orchestration, or entity state tracking.",
-      "path": "skills/state-machine-designer/state-machine-designer.md"
-    },
-    {
-      "name": "resilience-patterns",
-      "description": "Implement fault tolerance patterns: Supervision strategies, Mitigation/Fallback actors, Stashing for availability, Circuit Breaker, Retry with Backoff, Startup Dependency Retry. For Akka.NET actors and distributed .NET services. TRIGGER when: implementing error handling, retry logic, fault tolerance, graceful degradation, or supervision hierarchies.",
-      "path": "skills/resilience-patterns/resilience-patterns.md"
-    },
-    {
-      "name": "code-complexity-analyzer",
-      "description": "Analyze code complexity metrics: Cyclomatic Complexity, CRAP Score, coupling, abstraction depth, method length. Provides concrete recommendations for splitting, inlining, or simplifying. TRIGGER when: asking 'is this too complex?', during refactoring, reviewing metrics, or assessing code health.",
-      "path": "skills/code-complexity-analyzer/code-complexity-analyzer.md"
-    },
-    {
-      "name": "app-startup-orchestrator",
-      "description": "Design application startup orchestration with interface-based composition, health check registries, startup tasks, retry loops, and tag-based Kubernetes probes. For ASP.NET Core and Akka.NET services. TRIGGER when: setting up app bootstrapping, configuring health checks, implementing startup tasks, or designing k8s probe endpoints.",
-      "path": "skills/app-startup-orchestrator/app-startup-orchestrator.md"
-    },
-    {
-      "name": "domain-modeling-patterns",
-      "description": "Design domain models with value objects, record hierarchies, complex type parsers, and attribute-driven discovery. Make illegal states unrepresentable. TRIGGER when: creating domain entities, modeling value objects, designing type hierarchies, or asking 'how should I model X'.",
-      "path": "skills/domain-modeling-patterns/domain-modeling-patterns.md"
-    },
-    {
-      "name": "infrastructure-patterns",
-      "description": "Production infrastructure patterns: MongoDB builder/factory, HTTP client resilience with Polly, configuration with environment overrides, pagination, caching. TRIGGER when: setting up database access, configuring HTTP clients, implementing caching, pagination, or configuration management.",
-      "path": "skills/infrastructure-patterns/infrastructure-patterns.md"
-    },
-    {
-      "name": "observability-patterns",
-      "description": "Implement observability for .NET services: Structured logging with Serilog, correlation IDs, health check endpoints, OpenTelemetry tracing, Prometheus metrics. TRIGGER when: setting up logging, tracing, metrics, health endpoints, or asking about monitoring and observability.",
-      "path": "skills/observability-patterns/observability-patterns.md"
-    }
+    "./skills/actor-pattern-library",
+    "./skills/code-complexity-analyzer",
+    "./skills/complexity-guardian",
+    "./skills/domain-modeling-patterns",
+    "./skills/message-driven-designer",
+    "./skills/resilience-patterns",
+    "./skills/state-machine-designer"
+  ],
+  "agents": [
+    "./agents/code-complexity-analyst.md"
   ]
 }

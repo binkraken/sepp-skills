@@ -1,6 +1,7 @@
 ---
 name: complexity-guardian
 description: Review code for over-engineering and under-engineering. Detect unnecessary abstractions, god classes, missing error handling, and premature patterns.
+invocable: true
 ---
 
 # Complexity Guardian

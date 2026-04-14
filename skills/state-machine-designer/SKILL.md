@@ -1,6 +1,7 @@
 ---
 name: state-machine-designer
 description: Design explicit state machines with event-sourced state, transition guards, and side-effect isolation. States, transitions, recovery, visualization.
+invocable: true
 ---
 
 # State Machine Designer
