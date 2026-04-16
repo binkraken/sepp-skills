@@ -9,9 +9,15 @@
   "plugins": [
     {
       "name": "sepp",
-      "source": "./",
+      "source": "./sepp-skills",
       "version": "0.1.1",
-      "description": "Sepp skills"
+      "description": "Production-proven patterns for .NET and Akka.NET development."
+    },
+    {
+      "name": "servus-skills",
+      "source": "./servus-skills",
+      "version": "0.1.0",
+      "description": "Skills for the Servus.Core and Servus.Akka frameworks."
     }
   ]
 }

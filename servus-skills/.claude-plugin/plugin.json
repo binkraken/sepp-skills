@@ -1,0 +1,22 @@
+{
+  "name": "servus-skills",
+  "version": "0.1.0",
+  "description": "Skills for the Servus.Core and Servus.Akka frameworks — AppBuilder, actor registration, tracing, collections, concurrency, and more.",
+  "skills": [
+    "./skills/servus-action-registry",
+    "./skills/servus-actor-registration",
+    "./skills/servus-collections",
+    "./skills/servus-concurrency",
+    "./skills/servus-diagnostics",
+    "./skills/servus-distributed-tracing",
+    "./skills/servus-gamification",
+    "./skills/servus-handler-registry",
+    "./skills/servus-registry-extensions",
+    "./skills/servus-safe-child-communication",
+    "./skills/servus-startup-gates",
+    "./skills/servus-startup-patterns",
+    "./skills/servus-text-utilities",
+    "./skills/servus-type-operations"
+  ],
+  "agents": []
+}
